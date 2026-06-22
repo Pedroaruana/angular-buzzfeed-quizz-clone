@@ -1,27 +1,26 @@
-# ProjetoBuzzfeed
+# Quizz - Qual área da programação combina com você?
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Quizz estilo BuzzFeed feito em Angular, como desafio da DIO. Peguei o template base e troquei as perguntas e os resultados pra descobrir com qual área da programação a pessoa mais combina: Front-End, Back-End, Full-Stack ou Mobile.
 
-## Development server
+## como funciona
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 7 perguntas com 4 alternativas cada
+- cada alternativa pontua pra uma das áreas (A, B, C ou D)
+- no final, a área com mais escolhas vira o resultado
 
-## Code scaffolding
+## como rodar
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install
+npm start
+```
 
-## Build
+Abre em `http://localhost:4200/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## stack
 
-## Running unit tests
+Angular 14, TypeScript, HTML e CSS puro.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Baseado no template do [felipeAguiarCode/angular-buzzfeed-quizz-clone](https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone) da trilha da DIO.

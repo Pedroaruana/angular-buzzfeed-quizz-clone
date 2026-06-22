@@ -1,55 +1,81 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Com qual área da programação você mais combina?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "O que mais te empolga quando você está codando?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Ver a tela mudar enquanto eu mexo no CSS", "alias":"A"},
+        {"id": 2, "name":"Resolver a regra de negócio e ver a query rodar", "alias":"B"},
+        {"id": 3, "name":"Conectar tudo do banco até o botão funcionando", "alias":"C"},
+        {"id": 4, "name":"Rodar o app no celular e sentir que é um produto", "alias":"D"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual dessas tarefas você faria sem reclamar?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Acertar o alinhamento de um componente no Figma", "alias":"A"},
+        {"id": 2, "name":"Otimizar uma consulta SQL que tá demorando 8 segundos", "alias":"B"},
+        {"id": 3, "name":"Configurar autenticação JWT entre front e back", "alias":"C"},
+        {"id": 4, "name":"Resolver bug que só aparece no iPhone 12", "alias":"D"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Qual ferramenta te dá mais conforto?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"DevTools do navegador aberto o dia todo", "alias":"A"},
+        {"id": 2, "name":"Terminal, Docker e logs do servidor", "alias":"B"},
+        {"id": 3, "name":"Postman/Insomnia testando rotas", "alias":"C"},
+        {"id": 4, "name":"Expo, Android Studio ou Xcode rodando", "alias":"D"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Como você reage quando algo tá feio na tela?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Não consigo dormir até arrumar o espaçamento", "alias":"A"},
+        {"id": 2, "name":"Se a API tá respondendo certo, beleza", "alias":"B"},
+        {"id": 3, "name":"Arrumo, mas só depois de garantir que os dados tão certos", "alias":"C"},
+        {"id": 4, "name":"Tem que ficar bom no dedo, gestos suaves e tudo", "alias":"D"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual stack te chama mais atenção?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"React, Vue, Angular, Tailwind", "alias":"A"},
+        {"id": 2, "name":"Node, Python, Java, PostgreSQL", "alias":"B"},
+        {"id": 3, "name":"Next.js + API própria + banco + deploy", "alias":"C"},
+        {"id": 4, "name":"React Native, Flutter, Swift, Kotlin", "alias":"D"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Sua maior dor de cabeça hoje seria:",
+      "options":[
+        {"id": 1, "name":"Diferença de renderização entre navegadores", "alias":"A"},
+        {"id": 2, "name":"Race condition em um endpoint concorrente", "alias":"B"},
+        {"id": 3, "name":"Conciliar contrato da API com o que o front espera", "alias":"C"},
+        {"id": 4, "name":"App rejeitado na review da App Store", "alias":"D"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Em um projeto novo, o que você quer fazer primeiro?",
+      "options":[
+        {"id": 1, "name":"Montar os componentes e o layout", "alias":"A"},
+        {"id": 2, "name":"Modelar o banco e desenhar as rotas", "alias":"B"},
+        {"id": 3, "name":"Desenhar a arquitetura inteira no quadro", "alias":"C"},
+        {"id": 4, "name":"Criar o protótipo no celular e testar o fluxo", "alias":"D"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você é Front-End! Sua praia é a interface: HTML, CSS, JavaScript e frameworks como React, Vue ou Angular. Você se importa com a experiência do usuário, com pixel, com performance no navegador e com fazer a tela funcionar bonita em qualquer dispositivo.",
+    "B": "Você é Back-End! Sua praia é a regra de negócio, o banco de dados e as APIs. Node, Python, Java, SQL, autenticação, performance de query e arquitetura de servidor são o seu mundo. Você gosta de fazer o motor por trás do produto funcionar.",
+    "C": "Você é Full-Stack! Você não escolhe lado: gosta de pegar o problema do começo ao fim, do banco até o botão. Combina React/Angular com Node ou Python, gerencia o deploy e entende a stack inteira. É o canivete suíço do time.",
+    "D": "Você é Mobile! Sua praia é desenvolver apps nativos ou híbridos com React Native, Flutter, Swift ou Kotlin. Você pensa em gesto, em tela pequena, em performance de bateria e em colocar um app rodando na mão do usuário."
   }
 }
